@@ -1,0 +1,1 @@
+export default function Page(){return <div style={padding:24}><h2>Campanas</h2><p>Sección interactiva en producción.</p></div>}
