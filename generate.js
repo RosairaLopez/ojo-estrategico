@@ -1,1 +1,0 @@
-export default function handler(req,res){ if(process.env.OPENAI_MODE==='demo' || !process.env.OPENAI_API_KEY){ res.status(200).json({model:'demo',items:['Idea A: Reel educativo','Idea B: Carrusel','Idea C: Story']}); } else { res.status(400).json({error:'No API key configured'}); } }
